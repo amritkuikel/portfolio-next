@@ -18,7 +18,6 @@ export default function Home() {
       <CardGrid />
       <StickyScroller />
       <TechStack />
-      <div className="h-[300vh]"></div>
     </main>
   );
 }
