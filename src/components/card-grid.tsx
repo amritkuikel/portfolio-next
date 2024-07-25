@@ -1,12 +1,11 @@
 "use client";
-import { LampEffect } from "./lamp-effect";
 import { HoverEffect } from "./ui/card-hover-effect";
 
 export function CardGrid() {
   return (
-    <div className="max-w-5xl mx-auto px-8">
-      <LampEffect />
-      <HoverEffect items={projects} />
+    <div className="max-w-5xl mx-auto px-8 ">
+      {" "}
+      <HoverEffect items={projects} className="dark:bg-black bg-white" />
     </div>
   );
 }

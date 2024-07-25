@@ -1,6 +1,5 @@
 import { CardGrid } from "@/components/card-grid";
 import { ColorModeToggle } from "@/components/color-mode-toggle";
-import { Hero } from "@/components/hero";
 import { NavBar } from "@/components/nav-bar";
 import { StickyScroller } from "@/components/sticky-scroller";
 import { TechStack } from "@/components/tech-stack";
@@ -8,15 +7,19 @@ import { VortexBackground } from "@/components/vortex-background";
 
 export default function Home() {
   return (
-    <main>
-      <div className="fixed bottom-2 left-2 z-50 no-scrollbar">
-        <ColorModeToggle />
-      </div>
+    <main className="dark:bg-black bg-white">
+      <ColorModeToggle />
       <NavBar />
       <VortexBackground />
-      <Hero />
+      <div className="text-center py-4 font-bold text-2xl">MY PROJECTS</div>
       <CardGrid />
+      <div className="text-center py-4 font-bold text-2xl">
+        PROFESSIONAL SKILLS
+      </div>
       <StickyScroller />
+      <div className="text-center py-4 font-bold text-2xl">
+        SOME OTHER SKILLS
+      </div>
       <TechStack />
     </main>
   );

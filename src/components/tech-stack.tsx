@@ -60,15 +60,10 @@ export function TechStack() {
     },
   ];
   return (
-    <div>
-      <h1 className="text-center p-4 font-bold text-2xl">
-        Some other tech stack I use
-      </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  relative z-10 py-10 max-w-7xl mx-auto">
-        {features.map((feature, index) => (
-          <Feature key={feature.title} {...feature} index={index} />
-        ))}
-      </div>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  relative z-10 py-10 max-w-7xl mx-auto">
+      {features.map((feature, index) => (
+        <Feature key={feature.title} {...feature} index={index} />
+      ))}
     </div>
   );
 }

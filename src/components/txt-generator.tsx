@@ -1,7 +1,7 @@
 "use client";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 
-const words = `Code is like humor. When you have to explain it, it’s bad. Simplicity is the soul of efficiency.`;
+const words = `Welcome to my portfolio! I am a dedicated and versatile full stack web developer with a passion for creating dynamic, responsive, and user-friendly web applications.`;
 
 export function TxtGenerator() {
   return <TextGenerateEffect words={words} />;
