@@ -52,7 +52,7 @@ const content = [
 export function StickyScroller() {
   return (
     <div>
-      <StickyScroll content={content} />
+      <StickyScroll content={content}/>
     </div>
   );
 }

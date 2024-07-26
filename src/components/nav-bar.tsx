@@ -20,9 +20,9 @@ function Navbar({ className }: { className?: string }) {
       <Menu setActive={setActive}>
         <MenuItem setActive={setActive} active={active} item="Interests">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/frontend">Frontend Development</HoveredLink>
-            <HoveredLink href="/design">Interface Design</HoveredLink>
-            <HoveredLink href="/backend">Backend Development</HoveredLink>
+            <HoveredLink href="/">Frontend Development</HoveredLink>
+            <HoveredLink href="/">Interface Design</HoveredLink>
+            <HoveredLink href="/">Backend Development</HoveredLink>
           </div>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Projects">
@@ -55,16 +55,15 @@ function Navbar({ className }: { className?: string }) {
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Links">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/adf">Github</HoveredLink>
-            <HoveredLink href="/asdf">LinkedIn</HoveredLink>
-            <HoveredLink href="/sadf">Email</HoveredLink>
+            <HoveredLink href="https://github.com/amritkuikel">Github</HoveredLink>
+            <HoveredLink href="https://www.linkedin.com/in/amrit-kuikel-b3a7aa31b/">LinkedIn</HoveredLink>
           </div>
         </MenuItem>
         <MenuItem
           setActive={setActive}
           active={active}
           item="Resume"
-        ><HoveredLink href="/adf">Download</HoveredLink></MenuItem>
+        ><HoveredLink href="/api/resume" download>Download</HoveredLink></MenuItem>
       </Menu>
     </div>
   );

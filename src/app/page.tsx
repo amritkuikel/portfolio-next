@@ -13,14 +13,12 @@ export default function Home() {
       <VortexBackground />
       <div className="text-center py-4 font-bold text-2xl">MY PROJECTS</div>
       <CardGrid />
+      <div className="text-center py-4 font-bold text-2xl">SOME SKILLS</div>
+      <TechStack />
       <div className="text-center py-4 font-bold text-2xl">
         PROFESSIONAL SKILLS
       </div>
       <StickyScroller />
-      <div className="text-center py-4 font-bold text-2xl">
-        SOME OTHER SKILLS
-      </div>
-      <TechStack />
     </main>
   );
 }

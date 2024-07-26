@@ -8,7 +8,7 @@ export function VortexBackground() {
     <div className="w-full mx-auto rounded-md  overflow-hidden">
       <Vortex
         rangeY={200}
-        className="flex items-center flex-col justify-center  w-full h-screen bg-white/60 dark:bg-transparent"
+        className="flex items-center flex-col justify-center  w-full h-screen bg-slate-400/80 dark:bg-transparent"
       >
        <div className="text-4xl p-4 z-20 flex items-center gap-4">
         <div>HELLO, I&apos;M</div>
