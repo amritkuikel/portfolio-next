@@ -56,7 +56,7 @@ function Navbar({ className }: { className?: string }) {
         <MenuItem setActive={setActive} active={active} item="Links">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="https://github.com/amritkuikel">Github</HoveredLink>
-            <HoveredLink href="https://www.linkedin.com/in/amrit-kuikel-b3a7aa31b/">LinkedIn</HoveredLink>
+            <HoveredLink href="https://www.linkedin.com/in/amrit-kuikel-9a708b320/">LinkedIn</HoveredLink>
           </div>
         </MenuItem>
         <MenuItem
